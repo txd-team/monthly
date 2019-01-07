@@ -19,7 +19,7 @@ TXD 前端小报，是阿里巴巴「研发效能事业部-技术体验团队 TX
 
 自由投稿和联合编辑制，即所有读者都可以对感兴趣的内容投稿到 [issue](https://github.com/txd-team/monthly/issues) 进行投稿 :)，当期的联合编辑同学将会进行汇总，次月初发布。
 
-## Copywriter
+## 联合编辑
 
 - [roymellon (绘萌)](https://github.com/roymellon)
 - [damujiangr (墨止)](https://github.com/damujiangr)

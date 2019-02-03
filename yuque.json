@@ -2,7 +2,7 @@
   {
     "id": 1226368,
     "slug": "hhscg3",
-    "title": "201901",
+    "title": "前端小报 - 201901 月刊",
     "book_id": 214361,
     "book": {
       "id": 214361,
@@ -16,8 +16,8 @@
       "items_count": 5,
       "likes_count": 0,
       "watches_count": 1,
-      "content_updated_at": "2019-02-03T05:33:55.667Z",
-      "updated_at": "2019-02-03T05:33:55.000Z",
+      "content_updated_at": "2019-02-03T06:09:56.597Z",
+      "updated_at": "2019-02-03T06:09:56.000Z",
       "created_at": "2019-02-03T02:07:23.000Z",
       "namespace": "txd-team/fe-report",
       "user": {
@@ -35,7 +35,7 @@
         "followers_count": 0,
         "following_count": 0,
         "created_at": "2019-02-03T02:06:25.000Z",
-        "updated_at": "2019-02-03T02:35:25.000Z",
+        "updated_at": "2019-02-03T05:48:42.000Z",
         "_serializer": "v2.user"
       },
       "_serializer": "v2.book"
@@ -60,29 +60,29 @@
       "_serializer": "v2.user"
     },
     "format": "lake",
-    "body": "前端小报 - 201901 月刊\n\n> 订阅 / 投稿：[https://github.com/txd-team/monthly](https://github.com/txd-team/monthly)\n\n> 本期小编：[x-cold (尹挚)](https://github.com/x-cold)\n\n\n### 新闻快报\n\n#### 重磅消息：Github 宣布[私有仓库免费](https://github.com/pricing)，同期还上线了[星标话题](https://github.com/topics) (topics) 的功能\n\n2019 年伊始，GitHub 正式宣布开放无限制创建私有存储库，并开始提供统一的企业版 GitHub 服务，微软正在开始加速 toB 企业服务的布局。开发者们一片叫好声，可谓年度最佳的程序员福利了。\n\n![](https://cdn.nlark.com/yuque/0/2019/png/103147/1548992494868-94cd1a37-2454-40cd-90bb-7d90c3ad001a.png#align=left&display=inline&height=331&linkTarget=_blank&originHeight=1008&originWidth=1312&width=431#align=left&display=inline&height=573&linkTarget=_blank&originHeight=1008&originWidth=1312&width=746)\n\n#### 软件技术 B2B 公司 [Idera.inc](https://www.idera.com/) 收购 Travis CI\n\nTravis CI 将结合 Idera 公司其本身的数据库 / 开发者 / 测试等工具发挥更大的商业优势。不过使用免费版的社区同学也不用紧张，**Travis CI 依然保证对开源软件免费的策略，并且其开源证书不会修改 (MIT)**，更多可以参考详细的[官方公告](https://blog.travis-ci.com/2019-01-23-travis-ci-joins-idera-inc)。\n\n> 需要额外提醒的是, Travis-CI 对 Github 私有仓库依然没有提供免费的服务。\n\n\n#### ES2019 即将到来，[新特性](https://github.com/tc39/proposals/blob/master/finished-proposals.md)快速一览\n\n![image.png](https://cdn.nlark.com/yuque/0/2019/png/103147/1548992506585-4f3bff27-7235-455e-9808-93e2aad54b1a.png#align=left&display=inline&height=752&linkTarget=_blank&name=image.png&originHeight=2339&originWidth=1080&size=747066&width=347#align=left&display=inline&height=1616&linkTarget=_blank&originHeight=2339&originWidth=1080&width=746)\n\n#### 越来越多的项目开始迁移到 TypeScript\n\nMemSQL Studio 的 3W+ 行前端源代码从 Flow 迁移到 TypeScript，主要目的是加强类型的控制，避免动态/弱类型造成运行时的各种问题。官方总结了一篇[文章](https://davidgom.es/porting-30k-lines-of-code-from-flow-to-typescript/)，介绍了他们为什么要迁移到 TypeScript，以及迁移过程的记录。\n\nFackbook 开源的测试框架 [Jest](https://github.com/facebook/jest) 通过几番的讨论终于从 JavaScript 迁移到使用 TypeScript 构建整个项目了，详细的过程可以查看[关联的 Pull Request](https://github.com/facebook/jest/pull/7554)。\n\n1 月 25 日，Yarn 官方团队在 GitHub issue 中宣布将对 Yarn 进行[重大更改](https://github.com/yarnpkg/yarn)，主要包括：将代码库从 Flow 移植到 TypeScript，不再支持 Node 4 和 Node 6，并为 Yarn 新增了一些功能等，这个更改项目代号为 Berry，目的是增强 Yarn 优势，弥补弱势。(本条消息来自 [InfoQ](https://www.infoq.cn/article/eaRb-EzTimF4kfy4dsg7))\n\n#### Midway v1.0 社区\n\n[Midway](https://github.com/midwayjs/midway) 是一款基于 Egg 和 TypeScript 的 Web 开发框架，由来自淘宝的 MidwayJS 团队开发。用户可以使用丰富的装饰器快速开发，并且引入了 IoC 的概念，统一管理依赖和统一初始化，是一款面向未来的全栈开发方案。\n\n#### JavaScript 成为 2018 年最受欢迎的编程语言\n\n随着前端领域的迅猛发展，JavaScript 语言已经延伸到更丰富的使用场景中，HackerRank 在社区发起了 2018 年度的开发者调查，其中就包含了编程语言和框架。[调查结果](https://mp.weixin.qq.com/s/buLIpFVHkBb9tYReQyBZlA)显示：JavaScript 在 2018 年度荣获最受欢迎的编程语言。\n\n#### 简要讯息\n\n* npm package [可视化视角](https://anvaka.github.io/pm/#/galaxy/npm?cx=-1345&cy=-7006&cz=-6553&lx=0.6217&ly=-0.6459&lz=0.3098&lw=0.3168&ml=150&s=1.75&l=1&v=2018-11-02T00-00-00Z)，你能找到你发过的 npm 包吗？\n* 「墨者修齐」2018 年可视化[年度总结](https://www.yuque.com/mo-college/weekly/ny35wg)，介绍了各种场景下的可视化产品。\n* [SSE Conf](https://seeconf.antfin.com/) 2019 顺利举行，会议相关资料包[下载](https://www.yuque.com/seeconf/content/kbnzac)\n* 第十三届 [D2 前端技术论坛](http://d2forum.alibaba-inc.com/)在杭州举行，精彩回顾 [大合集](https://www.yuque.com/d2forum/content/d213)\n\n### Github Trending\n\n> 洞察 Github 近期 Hot Fresh Repository\n\n\n* [flutter-go](https://github.com/alibaba/flutter-go)\n\n[flutter](https://github.com/flutter/flutter) 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档，帮助开发者快速上手 Flutter 内部测试中，1.0 正式版将于 2月 20日 发布。\n\n* [trilium](https://github.com/zadam/trilium)\n\nTrilium Notes 是一款知识库构建工具，支持无限层级扩展，文档可以挂载到多个节点上，采用所见即所得的编辑方式。体验上个人感觉有点像桌面版本的语雀。\n\n* [CSS-Inspiration](https://github.com/chokcoco/CSS-Inspiration)\n\n国服第一切图仔 [chokcoco](https://github.com/chokcoco) 整理的各种 CSS 技巧，帮助学习 CSS 和寻找灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。\n\n* [nuclear](https://github.com/nukeop/nuclear)\n\n一款高颜值的流媒体资源音乐🎵播放器，支持网络上所有免费的流媒体资源。\n\n* [vscode-browser-preview](https://github.com/auchenberg/vscode-browser-preview)\n\n一款“带给我惊喜”的 vscode 插件，提供给给编辑器实时预览页面的能力，可以将 vscode 打造成更强大的集成开发环境 (IDE) 了。\n\n![1548992494875-b282cb53-c06d-40f1-ae4c-d142837e5377.gif](https://cdn.nlark.com/yuque/0/2019/gif/103147/1548992552938-9984fbf1-2e70-4da4-aee2-12b1a68d05d7.gif#align=left&display=inline&height=452&linkTarget=_blank&name=1548992494875-b282cb53-c06d-40f1-ae4c-d142837e5377.gif&originHeight=858&originWidth=1416&size=2200095&width=746#align=left&display=inline&height=452&linkTarget=_blank&originHeight=858&originWidth=1416&width=746)\n\n### 精品学习\n\n#### TypScript 学习指导\n\nTypeScript 最近可谓如火如，它是 JavaScript 的超集，其最大的特点就是支持了类型系统。其火爆的中最核心的推动力无非是前端工程规模的增长，覆盖端 (服务端 node / deno、移动端等)的扩展，学习和使用 TypeScript 能够让我们更轻松地应付一些复杂的开发场景。\n\n* 理解类型系统，推荐初级读物 [《A primer of type system》](https://www.cs.uaf.edu/users/chappell/public_html/class/2018_spr/cs331/docs/types_primer.html)\n* 入门 TypeScript 语言，参阅官网文档[英文原版](http://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) /[ 中文译版](https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html)\n* 实践参考项目 (starter)\n  * [TypeScript-Node-Starter](https://github.com/Microsoft/TypeScript-Node-Starter)\n  * [TypeScript-React-Starter](https://github.com/Microsoft/TypeScript-React-Starter)\n  * [TypeScript-Vue-Starter](https://github.com/Microsoft/TypeScript-Vue-Starter)\n  * 大家猜猜为啥没有列出 [Angular](https://angular.io/) ???\n\n#### 「墨者修齐」数据可视化[周刊](https://www.yuque.com/mo-college/weekly)\n\n精选文章推荐，可视化入门与进阶权威网站、论文、工具介绍，工程与设计实践分享，2019 年起每周一更新。\n\n#### Development 技术播客[列表](https://github.com/rShetty/awesome-podcasts#web-development)\n\n涵盖了开发相关的方方面面，包括编程语言、AI、Devops、Web 开发等丰富的课程体系。\n\n#### Flutter-learning\n\n[Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning) 整理了 Flutter 相关学习资料，包括 Flutter安装和配置，Flutter开发遇到的难题，Flutter示例代码和模板，Flutter项目实战，Dart语言学习示例代码。\n\n### 工具推荐\n\n* [RunJS](https://projects.lukehaas.me/runjs/)\n\n一款可以随手验证你的想法的桌面应用程序，输入 JS 代码片段既可预览执行结果，支持最新的 ES 特性。(PS: 也可以用来当做代码片段备忘录)\n\n* [image-map](https://www.image-map.net/)\n\n在线生成 image maps 的可视化工具，如果你想要绘制简单的局部可交互地图、编写邮件时希望添加链接到图片指定区块上，不妨通过 image maps 这项古老悠久的技术来实现，image-map 是一款在线进行可视化编辑，生成对应的 map / area 代码的工具。\n\n* [mjml](https://github.com/mjmlio/mjml)\n\nmjml 是一种用于创建响应式的邮件的标记语言，通过编写语义化的标签，会自动帮助你转换成标准的 html 的代码，并且使用了 table 进行布局，非常适合编写富文本邮件。如果有这方面的需求，不妨进一步试试桌面版的 [mjml-app](http://mjmlio.github.io/mjml-app/) 吧。\n\n* [terminus](https://github.com/Eugeny/terminus)\n\n支持 windows，linux，macos 三端的命令行工具，集成的SSH客户端和连接管理器，可定制化程度非常高。\n\n### 其他\n\n最近在 Reddit 看到的前端 vs 后端的一些[对比图](https://github.com/txd-team/monthly/issues/24)，“很是真实”，献上给大家。\n\n各位客官猪年大吉呀🌺🌺🌺，祝福新一年里猪事顺利！！！ 另外 2020 年毕业的同学别忘了准备阿里巴巴春季实习生招聘哈，需要内推的同学也可以提前发送附件简历到我的邮箱。\n\n### 附录\n\n* [《](https://github.com/shengxinjing/programmer-job-blacklist)[程序员找工作黑名单](https://github.com/shengxinjing/programmer-job-blacklist)[》](https://github.com/shengxinjing/programmer-job-blacklist)\n",
+    "body": "重磅消息：GITHUB 宣布私有仓库免费；Jest / Yarn 等大型前端项目纷纷准备迁移到 TypeScript；ES2019 即将到来，你准备好了吗？\n\n> 订阅 / 投稿：[https://github.com/txd-team/monthly](https://github.com/txd-team/monthly)\n\n> 本期小编：[x-cold (尹挚)](https://github.com/x-cold)\n\n\n### 新闻快报\n\n#### 重磅消息：Github 宣布[私有仓库免费](https://github.com/pricing)，同期还上线了[星标话题](https://github.com/topics) (topics) 的功能\n\n2019 年伊始，GitHub 正式宣布开放无限制创建私有存储库，并开始提供统一的企业版 GitHub 服务，微软正在开始加速 toB 企业服务的布局。开发者们一片叫好声，可谓年度最佳的程序员福利了。\n\n![](https://cdn.nlark.com/yuque/0/2019/png/103147/1548992494868-94cd1a37-2454-40cd-90bb-7d90c3ad001a.png#align=left&display=inline&height=331&linkTarget=_blank&originHeight=1008&originWidth=1312&width=431#align=left&display=inline&height=573&linkTarget=_blank&originHeight=1008&originWidth=1312&width=746)\n\n#### 软件技术 B2B 公司 [Idera.inc](https://www.idera.com/) 收购 Travis CI\n\nTravis CI 将结合 Idera 公司其本身的数据库 / 开发者 / 测试等工具发挥更大的商业优势。不过使用免费版的社区同学也不用紧张，**Travis CI 依然保证对开源软件免费的策略，并且其开源证书不会修改 (MIT)**，更多可以参考详细的[官方公告](https://blog.travis-ci.com/2019-01-23-travis-ci-joins-idera-inc)。\n\n> 需要额外提醒的是, Travis-CI 对 Github 私有仓库依然没有提供免费的服务。\n\n\n#### ES2019 即将到来，[新特性](https://github.com/tc39/proposals/blob/master/finished-proposals.md)快速一览\n\n![image.png](https://cdn.nlark.com/yuque/0/2019/png/103147/1548992506585-4f3bff27-7235-455e-9808-93e2aad54b1a.png#align=left&display=inline&height=752&linkTarget=_blank&name=image.png&originHeight=2339&originWidth=1080&size=747066&width=347#align=left&display=inline&height=1616&linkTarget=_blank&originHeight=2339&originWidth=1080&width=746)\n\n#### 越来越多的项目开始迁移到 TypeScript\n\nMemSQL Studio 的 3W+ 行前端源代码从 Flow 迁移到 TypeScript，主要目的是加强类型的控制，避免动态/弱类型造成运行时的各种问题。官方总结了一篇[文章](https://davidgom.es/porting-30k-lines-of-code-from-flow-to-typescript/)，介绍了他们为什么要迁移到 TypeScript，以及迁移过程的记录。\n\nFackbook 开源的测试框架 [Jest](https://github.com/facebook/jest) 通过几番的讨论终于从 JavaScript 迁移到使用 TypeScript 构建整个项目了，详细的过程可以查看[关联的 Pull Request](https://github.com/facebook/jest/pull/7554)。\n\n1 月 25 日，Yarn 官方团队在 GitHub issue 中宣布将对 Yarn 进行[重大更改](https://github.com/yarnpkg/yarn)，主要包括：将代码库从 Flow 移植到 TypeScript，不再支持 Node 4 和 Node 6，并为 Yarn 新增了一些功能等，这个更改项目代号为 Berry，目的是增强 Yarn 优势，弥补弱势。(本条消息来自 [InfoQ](https://www.infoq.cn/article/eaRb-EzTimF4kfy4dsg7))\n\n#### Midway v1.0 社区\n\n[Midway](https://github.com/midwayjs/midway) 是一款基于 Egg 和 TypeScript 的 Web 开发框架，由来自淘宝的 MidwayJS 团队开发。用户可以使用丰富的装饰器快速开发，并且引入了 IoC 的概念，统一管理依赖和统一初始化，是一款面向未来的全栈开发方案。\n\n#### JavaScript 成为 2018 年最受欢迎的编程语言\n\n随着前端领域的迅猛发展，JavaScript 语言已经延伸到更丰富的使用场景中，HackerRank 在社区发起了 2018 年度的开发者调查，其中就包含了编程语言和框架。[调查结果](https://mp.weixin.qq.com/s/buLIpFVHkBb9tYReQyBZlA)显示：JavaScript 在 2018 年度荣获最受欢迎的编程语言。\n\n#### 简要讯息\n\n* npm package [可视化视角](https://anvaka.github.io/pm/#/galaxy/npm?cx=-1345&cy=-7006&cz=-6553&lx=0.6217&ly=-0.6459&lz=0.3098&lw=0.3168&ml=150&s=1.75&l=1&v=2018-11-02T00-00-00Z)，你能找到你发过的 npm 包吗？\n* 「墨者修齐」2018 年可视化[年度总结](https://www.yuque.com/mo-college/weekly/ny35wg)，介绍了各种场景下的可视化产品。\n* [SSE Conf](https://seeconf.antfin.com/) 2019 顺利举行，会议相关资料包[下载](https://www.yuque.com/seeconf/content/kbnzac)\n* 第十三届 [D2 前端技术论坛](http://d2forum.alibaba-inc.com/)在杭州举行，精彩回顾 [大合集](https://www.yuque.com/d2forum/content/d213)\n\n### Github Trending\n\n> 洞察 Github 近期 Hot Fresh Repository\n\n\n* [flutter-go](https://github.com/alibaba/flutter-go)\n\n[flutter](https://github.com/flutter/flutter) 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档，帮助开发者快速上手 Flutter 内部测试中，1.0 正式版将于 2月 20日 发布。\n\n* [trilium](https://github.com/zadam/trilium)\n\nTrilium Notes 是一款知识库构建工具，支持无限层级扩展，文档可以挂载到多个节点上，采用所见即所得的编辑方式。体验上个人感觉有点像桌面版本的语雀。\n\n* [CSS-Inspiration](https://github.com/chokcoco/CSS-Inspiration)\n\n国服第一切图仔 [chokcoco](https://github.com/chokcoco) 整理的各种 CSS 技巧，帮助学习 CSS 和寻找灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。\n\n* [nuclear](https://github.com/nukeop/nuclear)\n\n一款高颜值的流媒体资源音乐🎵播放器，支持网络上所有免费的流媒体资源。\n\n* [vscode-browser-preview](https://github.com/auchenberg/vscode-browser-preview)\n\n一款“带给我惊喜”的 vscode 插件，提供给给编辑器实时预览页面的能力，可以将 vscode 打造成更强大的集成开发环境 (IDE) 了。\n\n![1548992494875-b282cb53-c06d-40f1-ae4c-d142837e5377.gif](https://cdn.nlark.com/yuque/0/2019/gif/103147/1548992552938-9984fbf1-2e70-4da4-aee2-12b1a68d05d7.gif#align=left&display=inline&height=452&linkTarget=_blank&name=1548992494875-b282cb53-c06d-40f1-ae4c-d142837e5377.gif&originHeight=858&originWidth=1416&size=2200095&width=746#align=left&display=inline&height=452&linkTarget=_blank&originHeight=858&originWidth=1416&width=746)\n\n### 精品学习\n\n#### TypScript 学习指导\n\nTypeScript 最近可谓如火如荼，它是 JavaScript 的超集，其最大的特点就是支持了类型系统。其火爆的中最核心的推动力无非是前端工程规模的增长，覆盖端 (服务端 node / deno、移动端等)的扩展，学习和使用 TypeScript 能够让我们更轻松地应付一些复杂的开发场景。\n\n* 理解类型系统，推荐初级读物 [《A primer of type system》](https://www.cs.uaf.edu/users/chappell/public_html/class/2018_spr/cs331/docs/types_primer.html)\n* 入门 TypeScript 语言，参阅官网文档[英文原版](http://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html) /[ 中文译版](https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html)\n* 实践参考项目 (starter)\n  * [TypeScript-Node-Starter](https://github.com/Microsoft/TypeScript-Node-Starter)\n  * [TypeScript-React-Starter](https://github.com/Microsoft/TypeScript-React-Starter)\n  * [TypeScript-Vue-Starter](https://github.com/Microsoft/TypeScript-Vue-Starter)\n  * 大家猜猜为啥没有列出 [Angular](https://angular.io/) ???\n\n#### 「墨者修齐」数据可视化[周刊](https://www.yuque.com/mo-college/weekly)\n\n精选文章推荐，可视化入门与进阶权威网站、论文、工具介绍，工程与设计实践分享，2019 年起每周一更新。\n\n#### Development 技术播客[列表](https://github.com/rShetty/awesome-podcasts#web-development)\n\n涵盖了开发相关的方方面面，包括编程语言、AI、Devops、Web 开发等丰富的课程体系。\n\n#### Flutter-learning\n\n[Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning) 整理了 Flutter 相关学习资料，包括 Flutter安装和配置，Flutter开发遇到的难题，Flutter示例代码和模板，Flutter项目实战，Dart语言学习示例代码。\n\n### 工具推荐\n\n* [RunJS](https://projects.lukehaas.me/runjs/)\n\n一款可以随手验证你的想法的桌面应用程序，输入 JS 代码片段既可预览执行结果，支持最新的 ES 特性。(PS: 也可以用来当做代码片段备忘录)\n\n* [image-map](https://www.image-map.net/)\n\n在线生成 image maps 的可视化工具，如果你想要绘制简单的局部可交互地图、编写邮件时希望添加链接到图片指定区块上，不妨通过 image maps 这项古老悠久的技术来实现，image-map 是一款在线进行可视化编辑，生成对应的 map / area 代码的工具。\n\n* [mjml](https://github.com/mjmlio/mjml)\n\nmjml 是一种用于创建响应式的邮件的标记语言，通过编写语义化的标签，会自动帮助你转换成标准的 html 的代码，并且使用了 table 进行布局，非常适合编写富文本邮件。如果有这方面的需求，不妨进一步试试桌面版的 [mjml-app](http://mjmlio.github.io/mjml-app/) 吧。\n\n* [terminus](https://github.com/Eugeny/terminus)\n\n支持 windows，linux，macos 三端的命令行工具，集成的SSH客户端和连接管理器，可定制化程度非常高。\n\n### 其他\n\n最近在 Reddit 看到的前端 vs 后端的一些[对比图](https://github.com/txd-team/monthly/issues/24)，“很是真实”，献上给大家。\n\n各位客官猪年大吉呀🌺🌺🌺，祝福新一年里猪事顺利！！！ 另外 2020 年毕业的同学别忘了准备阿里巴巴春季实习生招聘哈，需要内推的同学也可以提前发送附件简历到我的邮箱。\n\n### 附录\n\n* [《](https://github.com/shengxinjing/programmer-job-blacklist)[程序员找工作黑名单](https://github.com/shengxinjing/programmer-job-blacklist)[》](https://github.com/shengxinjing/programmer-job-blacklist)\n",
     "body_draft": "",
-    "body_html": "<p>前端小报 - 201901 月刊</p><p><br /></p><blockquote><p>订阅 / 投稿：<a href=\"https://github.com/txd-team/monthly\" target=\"_blank\">https://github.com/txd-team/monthly</a></p></blockquote><blockquote><p>本期小编：<a href=\"https://github.com/x-cold\" target=\"_blank\">x-cold (尹挚)</a></p></blockquote><p><br /></p><h3 id=\"81377773\">新闻快报</h3><p><br /></p><h4 id=\"7b918a9a\">重磅消息：Github 宣布<a href=\"https://github.com/pricing\" target=\"_blank\">私有仓库免费</a>，同期还上线了<a href=\"https://github.com/topics\" target=\"_blank\">星标话题</a> (topics) 的功能</h4><p><br /></p><p>2019 年伊始，GitHub 正式宣布开放无限制创建私有存储库，并开始提供统一的企业版 GitHub 服务，微软正在开始加速 toB 企业服务的布局。开发者们一片叫好声，可谓年度最佳的程序员福利了。</p><p><br /></p><p><img alt=\"\" src=\"https://cdn.nlark.com/yuque/0/2019/png/103147/1548992494868-94cd1a37-2454-40cd-90bb-7d90c3ad001a.png#align=left&amp;display=inline&amp;height=331&amp;linkTarget=_blank&amp;originHeight=1008&amp;originWidth=1312&amp;width=431#align=left&amp;display=inline&amp;height=573&amp;linkTarget=_blank&amp;originHeight=1008&amp;originWidth=1312&amp;width=746\" style=\"max-width: 600px; width: 746px;\" /></p><p><br /></p><h4 id=\"a06eb1b6\">软件技术 B2B 公司 <a href=\"https://www.idera.com/\" target=\"_blank\">Idera.inc</a> 收购 Travis CI</h4><p><br /></p><p>Travis CI 将结合 Idera 公司其本身的数据库 / 开发者 / 测试等工具发挥更大的商业优势。不过使用免费版的社区同学也不用紧张，<strong>Travis CI 依然保证对开源软件免费的策略，并且其开源证书不会修改 (MIT)</strong>，更多可以参考详细的<a href=\"https://blog.travis-ci.com/2019-01-23-travis-ci-joins-idera-inc\" target=\"_blank\">官方公告</a>。</p><p><br /></p><blockquote><p>需要额外提醒的是, Travis-CI 对 Github 私有仓库依然没有提供免费的服务。</p></blockquote><p><br /></p><h4 id=\"7372c49b\">ES2019 即将到来，<a href=\"https://github.com/tc39/proposals/blob/master/finished-proposals.md\" target=\"_blank\">新特性</a>快速一览</h4><p><br /></p><p><img alt=\"\" src=\"https://cdn.nlark.com/yuque/0/2019/png/103147/1548992506585-4f3bff27-7235-455e-9808-93e2aad54b1a.png#align=left&amp;display=inline&amp;height=752&amp;linkTarget=_blank&amp;name=image.png&amp;originHeight=2339&amp;originWidth=1080&amp;size=747066&amp;width=347#align=left&amp;display=inline&amp;height=1616&amp;linkTarget=_blank&amp;originHeight=2339&amp;originWidth=1080&amp;width=746\" style=\"max-width: 600px; width: 746px;\" /></p><p><br /></p><h4 id=\"fef6de94\">越来越多的项目开始迁移到 TypeScript</h4><p><br /></p><p>MemSQL Studio 的 3W+ 行前端源代码从 Flow 迁移到 TypeScript，主要目的是加强类型的控制，避免动态/弱类型造成运行时的各种问题。官方总结了一篇<a href=\"https://davidgom.es/porting-30k-lines-of-code-from-flow-to-typescript/\" target=\"_blank\">文章</a>，介绍了他们为什么要迁移到 TypeScript，以及迁移过程的记录。</p><p><br /></p><p>Fackbook 开源的测试框架 <a href=\"https://github.com/facebook/jest\" target=\"_blank\">Jest</a> 通过几番的讨论终于从 JavaScript 迁移到使用 TypeScript 构建整个项目了，详细的过程可以查看<a href=\"https://github.com/facebook/jest/pull/7554\" target=\"_blank\">关联的 Pull Request</a>。</p><p><br /></p><p>1 月 25 日，Yarn 官方团队在 GitHub issue 中宣布将对 Yarn 进行<a href=\"https://github.com/yarnpkg/yarn\" target=\"_blank\">重大更改</a>，主要包括：将代码库从 Flow 移植到 TypeScript，不再支持 Node 4 和 Node 6，并为 Yarn 新增了一些功能等，这个更改项目代号为 Berry，目的是增强 Yarn 优势，弥补弱势。(本条消息来自 <a href=\"https://www.infoq.cn/article/eaRb-EzTimF4kfy4dsg7\" target=\"_blank\">InfoQ</a>)</p><p><br /></p><h4 id=\"3f696f4f\">Midway v1.0 社区</h4><p><br /></p><p><a href=\"https://github.com/midwayjs/midway\" target=\"_blank\">Midway</a> 是一款基于 Egg 和 TypeScript 的 Web 开发框架，由来自淘宝的 MidwayJS 团队开发。用户可以使用丰富的装饰器快速开发，并且引入了 IoC 的概念，统一管理依赖和统一初始化，是一款面向未来的全栈开发方案。</p><p><br /></p><h4 id=\"6270271d\">JavaScript 成为 2018 年最受欢迎的编程语言</h4><p><br /></p><p>随着前端领域的迅猛发展，JavaScript 语言已经延伸到更丰富的使用场景中，HackerRank 在社区发起了 2018 年度的开发者调查，其中就包含了编程语言和框架。<a href=\"https://mp.weixin.qq.com/s/buLIpFVHkBb9tYReQyBZlA\" target=\"_blank\">调查结果</a>显示：JavaScript 在 2018 年度荣获最受欢迎的编程语言。</p><p><br /></p><h4 id=\"1fac8060\">简要讯息</h4><p><br /></p><ul><li>npm package <a href=\"https://anvaka.github.io/pm/#/galaxy/npm?cx=-1345&amp;cy=-7006&amp;cz=-6553&amp;lx=0.6217&amp;ly=-0.6459&amp;lz=0.3098&amp;lw=0.3168&amp;ml=150&amp;s=1.75&amp;l=1&amp;v=2018-11-02T00-00-00Z\" target=\"_blank\">可视化视角</a>，你能找到你发过的 npm 包吗？</li></ul><ul><li>「墨者修齐」2018 年可视化<a href=\"https://www.yuque.com/mo-college/weekly/ny35wg\" target=\"_blank\">年度总结</a>，介绍了各种场景下的可视化产品。</li></ul><ul><li><a href=\"https://seeconf.antfin.com/\" target=\"_blank\">SSE Conf</a> 2019 顺利举行，会议相关资料包<a href=\"https://www.yuque.com/seeconf/content/kbnzac\" target=\"_blank\">下载</a></li></ul><ul><li>第十三届 <a href=\"http://d2forum.alibaba-inc.com/\" target=\"_blank\">D2 前端技术论坛</a>在杭州举行，精彩回顾 <a href=\"https://www.yuque.com/d2forum/content/d213\" target=\"_blank\">大合集</a></li></ul><p><br /></p><h3 id=\"365acd42\">Github Trending</h3><p><br /></p><blockquote><p>洞察 Github 近期 Hot Fresh Repository</p></blockquote><p><br /></p><ul><li><a href=\"https://github.com/alibaba/flutter-go\" target=\"_blank\">flutter-go</a></li></ul><p><br /></p><p><a href=\"https://github.com/flutter/flutter\" target=\"_blank\">flutter</a> 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档，帮助开发者快速上手 Flutter 内部测试中，1.0 正式版将于 2月 20日 发布。</p><p><br /></p><ul><li><a href=\"https://github.com/zadam/trilium\" target=\"_blank\">trilium</a></li></ul><p><br /></p><p>Trilium Notes 是一款知识库构建工具，支持无限层级扩展，文档可以挂载到多个节点上，采用所见即所得的编辑方式。体验上个人感觉有点像桌面版本的语雀。</p><p><br /></p><ul><li><a href=\"https://github.com/chokcoco/CSS-Inspiration\" target=\"_blank\">CSS-Inspiration</a></li></ul><p><br /></p><p>国服第一切图仔 <a href=\"https://github.com/chokcoco\" target=\"_blank\">chokcoco</a> 整理的各种 CSS 技巧，帮助学习 CSS 和寻找灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。</p><p><br /></p><ul><li><a href=\"https://github.com/nukeop/nuclear\" target=\"_blank\">nuclear</a></li></ul><p><br /></p><p>一款高颜值的流媒体资源音乐🎵播放器，支持网络上所有免费的流媒体资源。</p><p><br /></p><ul><li><a href=\"https://github.com/auchenberg/vscode-browser-preview\" target=\"_blank\">vscode-browser-preview</a></li></ul><p><br /></p><p>一款“带给我惊喜”的 vscode 插件，提供给给编辑器实时预览页面的能力，可以将 vscode 打造成更强大的集成开发环境 (IDE) 了。</p><p><br /></p><p><img alt=\"\" src=\"https://cdn.nlark.com/yuque/0/2019/gif/103147/1548992552938-9984fbf1-2e70-4da4-aee2-12b1a68d05d7.gif#align=left&amp;display=inline&amp;height=452&amp;linkTarget=_blank&amp;name=1548992494875-b282cb53-c06d-40f1-ae4c-d142837e5377.gif&amp;originHeight=858&amp;originWidth=1416&amp;size=2200095&amp;width=746#align=left&amp;display=inline&amp;height=452&amp;linkTarget=_blank&amp;originHeight=858&amp;originWidth=1416&amp;width=746\" style=\"max-width: 600px; width: 746px;\" /></p><p><br /></p><h3 id=\"236b7ba5\">精品学习</h3><p><br /></p><h4 id=\"712f2305\">TypScript 学习指导</h4><p><br /></p><p>TypeScript 最近可谓如火如，它是 JavaScript 的超集，其最大的特点就是支持了类型系统。其火爆的中最核心的推动力无非是前端工程规模的增长，覆盖端 (服务端 node / deno、移动端等)的扩展，学习和使用 TypeScript 能够让我们更轻松地应付一些复杂的开发场景。</p><p><br /></p><ul><li>理解类型系统，推荐初级读物 <a href=\"https://www.cs.uaf.edu/users/chappell/public_html/class/2018_spr/cs331/docs/types_primer.html\" target=\"_blank\">《A primer of type system》</a></li></ul><ul><li>入门 TypeScript 语言，参阅官网文档<a href=\"http://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html\" target=\"_blank\">英文原版</a> /<a href=\"https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html\" target=\"_blank\"> 中文译版</a></li></ul><ul><li>实践参考项目 (starter)</li></ul><ul data-lake-indent=\"1\"><li><a href=\"https://github.com/Microsoft/TypeScript-Node-Starter\" target=\"_blank\">TypeScript-Node-Starter</a></li></ul><ul data-lake-indent=\"1\"><li><a href=\"https://github.com/Microsoft/TypeScript-React-Starter\" target=\"_blank\">TypeScript-React-Starter</a></li></ul><ul data-lake-indent=\"1\"><li><a href=\"https://github.com/Microsoft/TypeScript-Vue-Starter\" target=\"_blank\">TypeScript-Vue-Starter</a></li></ul><ul data-lake-indent=\"1\"><li>大家猜猜为啥没有列出 <a href=\"https://angular.io/\" target=\"_blank\">Angular</a> ???</li></ul><p><br /></p><h4 id=\"d29a1623\">「墨者修齐」数据可视化<a href=\"https://www.yuque.com/mo-college/weekly\" target=\"_blank\">周刊</a></h4><p><br /></p><p>精选文章推荐，可视化入门与进阶权威网站、论文、工具介绍，工程与设计实践分享，2019 年起每周一更新。</p><p><br /></p><h4 id=\"423a0558\">Development 技术播客<a href=\"https://github.com/rShetty/awesome-podcasts#web-development\" target=\"_blank\">列表</a></h4><p><br /></p><p>涵盖了开发相关的方方面面，包括编程语言、AI、Devops、Web 开发等丰富的课程体系。</p><p><br /></p><h4 id=\"Flutter-learning\">Flutter-learning</h4><p><br /></p><p><a href=\"https://github.com/AweiLoveAndroid/Flutter-learning\" target=\"_blank\">Flutter-learning</a> 整理了 Flutter 相关学习资料，包括 Flutter安装和配置，Flutter开发遇到的难题，Flutter示例代码和模板，Flutter项目实战，Dart语言学习示例代码。</p><p><br /></p><h3 id=\"c11c7bd5\">工具推荐</h3><p><br /></p><ul><li><a href=\"https://projects.lukehaas.me/runjs/\" target=\"_blank\">RunJS</a></li></ul><p><br /></p><p>一款可以随手验证你的想法的桌面应用程序，输入 JS 代码片段既可预览执行结果，支持最新的 ES 特性。(PS: 也可以用来当做代码片段备忘录)</p><p><br /></p><ul><li><a href=\"https://www.image-map.net/\" target=\"_blank\">image-map</a></li></ul><p><br /></p><p>在线生成 image maps 的可视化工具，如果你想要绘制简单的局部可交互地图、编写邮件时希望添加链接到图片指定区块上，不妨通过 image maps 这项古老悠久的技术来实现，image-map 是一款在线进行可视化编辑，生成对应的 map / area 代码的工具。</p><p><br /></p><ul><li><a href=\"https://github.com/mjmlio/mjml\" target=\"_blank\">mjml</a></li></ul><p><br /></p><p>mjml 是一种用于创建响应式的邮件的标记语言，通过编写语义化的标签，会自动帮助你转换成标准的 html 的代码，并且使用了 table 进行布局，非常适合编写富文本邮件。如果有这方面的需求，不妨进一步试试桌面版的 <a href=\"http://mjmlio.github.io/mjml-app/\" target=\"_blank\">mjml-app</a> 吧。</p><p><br /></p><ul><li><a href=\"https://github.com/Eugeny/terminus\" target=\"_blank\">terminus</a></li></ul><p><br /></p><p>支持 windows，linux，macos 三端的命令行工具，集成的SSH客户端和连接管理器，可定制化程度非常高。</p><p><br /></p><h3 id=\"0d98c747\">其他</h3><p><br /></p><p>最近在 Reddit 看到的前端 vs 后端的一些<a href=\"https://github.com/txd-team/monthly/issues/24\" target=\"_blank\">对比图</a>，“很是真实”，献上给大家。</p><p><br /></p><p>各位客官猪年大吉呀🌺🌺🌺，祝福新一年里猪事顺利！！！ 另外 2020 年毕业的同学别忘了准备阿里巴巴春季实习生招聘哈，需要内推的同学也可以提前发送附件简历到我的邮箱。</p><p><br /></p><h3 id=\"2e307a62\">附录</h3><p><br /></p><ul><li><a href=\"https://github.com/shengxinjing/programmer-job-blacklist\" target=\"_blank\">《</a><a href=\"https://github.com/shengxinjing/programmer-job-blacklist\" target=\"_blank\">程序员找工作黑名单</a><a href=\"https://github.com/shengxinjing/programmer-job-blacklist\" target=\"_blank\">》</a></li></ul>",
+    "body_html": "<p>重磅消息：GITHUB 宣布私有仓库免费；Jest / Yarn 等大型前端项目纷纷准备迁移到 TypeScript；ES2019 即将到来，你准备好了吗？</p><p><br /></p><blockquote><p>订阅 / 投稿：<a href=\"https://github.com/txd-team/monthly\" target=\"_blank\">https://github.com/txd-team/monthly</a></p></blockquote><blockquote><p>本期小编：<a href=\"https://github.com/x-cold\" target=\"_blank\">x-cold (尹挚)</a></p></blockquote><p><br /></p><h3 id=\"81377773\">新闻快报</h3><p><br /></p><h4 id=\"7b918a9a\">重磅消息：Github 宣布<a href=\"https://github.com/pricing\" target=\"_blank\">私有仓库免费</a>，同期还上线了<a href=\"https://github.com/topics\" target=\"_blank\">星标话题</a> (topics) 的功能</h4><p><br /></p><p>2019 年伊始，GitHub 正式宣布开放无限制创建私有存储库，并开始提供统一的企业版 GitHub 服务，微软正在开始加速 toB 企业服务的布局。开发者们一片叫好声，可谓年度最佳的程序员福利了。</p><p><br /></p><p><img alt=\"\" src=\"https://cdn.nlark.com/yuque/0/2019/png/103147/1548992494868-94cd1a37-2454-40cd-90bb-7d90c3ad001a.png#align=left&amp;display=inline&amp;height=331&amp;linkTarget=_blank&amp;originHeight=1008&amp;originWidth=1312&amp;width=431#align=left&amp;display=inline&amp;height=573&amp;linkTarget=_blank&amp;originHeight=1008&amp;originWidth=1312&amp;width=746\" style=\"max-width: 600px; width: 746px;\" /></p><p><br /></p><h4 id=\"a06eb1b6\">软件技术 B2B 公司 <a href=\"https://www.idera.com/\" target=\"_blank\">Idera.inc</a> 收购 Travis CI</h4><p><br /></p><p>Travis CI 将结合 Idera 公司其本身的数据库 / 开发者 / 测试等工具发挥更大的商业优势。不过使用免费版的社区同学也不用紧张，<strong>Travis CI 依然保证对开源软件免费的策略，并且其开源证书不会修改 (MIT)</strong>，更多可以参考详细的<a href=\"https://blog.travis-ci.com/2019-01-23-travis-ci-joins-idera-inc\" target=\"_blank\">官方公告</a>。</p><p><br /></p><blockquote><p>需要额外提醒的是, Travis-CI 对 Github 私有仓库依然没有提供免费的服务。</p></blockquote><p><br /></p><h4 id=\"7372c49b\">ES2019 即将到来，<a href=\"https://github.com/tc39/proposals/blob/master/finished-proposals.md\" target=\"_blank\">新特性</a>快速一览</h4><p><br /></p><p><img alt=\"\" src=\"https://cdn.nlark.com/yuque/0/2019/png/103147/1548992506585-4f3bff27-7235-455e-9808-93e2aad54b1a.png#align=left&amp;display=inline&amp;height=752&amp;linkTarget=_blank&amp;name=image.png&amp;originHeight=2339&amp;originWidth=1080&amp;size=747066&amp;width=347#align=left&amp;display=inline&amp;height=1616&amp;linkTarget=_blank&amp;originHeight=2339&amp;originWidth=1080&amp;width=746\" style=\"max-width: 600px; width: 746px;\" /></p><p><br /></p><h4 id=\"fef6de94\">越来越多的项目开始迁移到 TypeScript</h4><p><br /></p><p>MemSQL Studio 的 3W+ 行前端源代码从 Flow 迁移到 TypeScript，主要目的是加强类型的控制，避免动态/弱类型造成运行时的各种问题。官方总结了一篇<a href=\"https://davidgom.es/porting-30k-lines-of-code-from-flow-to-typescript/\" target=\"_blank\">文章</a>，介绍了他们为什么要迁移到 TypeScript，以及迁移过程的记录。</p><p><br /></p><p>Fackbook 开源的测试框架 <a href=\"https://github.com/facebook/jest\" target=\"_blank\">Jest</a> 通过几番的讨论终于从 JavaScript 迁移到使用 TypeScript 构建整个项目了，详细的过程可以查看<a href=\"https://github.com/facebook/jest/pull/7554\" target=\"_blank\">关联的 Pull Request</a>。</p><p><br /></p><p>1 月 25 日，Yarn 官方团队在 GitHub issue 中宣布将对 Yarn 进行<a href=\"https://github.com/yarnpkg/yarn\" target=\"_blank\">重大更改</a>，主要包括：将代码库从 Flow 移植到 TypeScript，不再支持 Node 4 和 Node 6，并为 Yarn 新增了一些功能等，这个更改项目代号为 Berry，目的是增强 Yarn 优势，弥补弱势。(本条消息来自 <a href=\"https://www.infoq.cn/article/eaRb-EzTimF4kfy4dsg7\" target=\"_blank\">InfoQ</a>)</p><p><br /></p><h4 id=\"3f696f4f\">Midway v1.0 社区</h4><p><br /></p><p><a href=\"https://github.com/midwayjs/midway\" target=\"_blank\">Midway</a> 是一款基于 Egg 和 TypeScript 的 Web 开发框架，由来自淘宝的 MidwayJS 团队开发。用户可以使用丰富的装饰器快速开发，并且引入了 IoC 的概念，统一管理依赖和统一初始化，是一款面向未来的全栈开发方案。</p><p><br /></p><h4 id=\"6270271d\">JavaScript 成为 2018 年最受欢迎的编程语言</h4><p><br /></p><p>随着前端领域的迅猛发展，JavaScript 语言已经延伸到更丰富的使用场景中，HackerRank 在社区发起了 2018 年度的开发者调查，其中就包含了编程语言和框架。<a href=\"https://mp.weixin.qq.com/s/buLIpFVHkBb9tYReQyBZlA\" target=\"_blank\">调查结果</a>显示：JavaScript 在 2018 年度荣获最受欢迎的编程语言。</p><p><br /></p><h4 id=\"1fac8060\">简要讯息</h4><p><br /></p><ul><li>npm package <a href=\"https://anvaka.github.io/pm/#/galaxy/npm?cx=-1345&amp;cy=-7006&amp;cz=-6553&amp;lx=0.6217&amp;ly=-0.6459&amp;lz=0.3098&amp;lw=0.3168&amp;ml=150&amp;s=1.75&amp;l=1&amp;v=2018-11-02T00-00-00Z\" target=\"_blank\">可视化视角</a>，你能找到你发过的 npm 包吗？</li></ul><ul><li>「墨者修齐」2018 年可视化<a href=\"https://www.yuque.com/mo-college/weekly/ny35wg\" target=\"_blank\">年度总结</a>，介绍了各种场景下的可视化产品。</li></ul><ul><li><a href=\"https://seeconf.antfin.com/\" target=\"_blank\">SSE Conf</a> 2019 顺利举行，会议相关资料包<a href=\"https://www.yuque.com/seeconf/content/kbnzac\" target=\"_blank\">下载</a></li></ul><ul><li>第十三届 <a href=\"http://d2forum.alibaba-inc.com/\" target=\"_blank\">D2 前端技术论坛</a>在杭州举行，精彩回顾 <a href=\"https://www.yuque.com/d2forum/content/d213\" target=\"_blank\">大合集</a></li></ul><p><br /></p><h3 id=\"365acd42\">Github Trending</h3><p><br /></p><blockquote><p>洞察 Github 近期 Hot Fresh Repository</p></blockquote><p><br /></p><ul><li><a href=\"https://github.com/alibaba/flutter-go\" target=\"_blank\">flutter-go</a></li></ul><p><br /></p><p><a href=\"https://github.com/flutter/flutter\" target=\"_blank\">flutter</a> 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档，帮助开发者快速上手 Flutter 内部测试中，1.0 正式版将于 2月 20日 发布。</p><p><br /></p><ul><li><a href=\"https://github.com/zadam/trilium\" target=\"_blank\">trilium</a></li></ul><p><br /></p><p>Trilium Notes 是一款知识库构建工具，支持无限层级扩展，文档可以挂载到多个节点上，采用所见即所得的编辑方式。体验上个人感觉有点像桌面版本的语雀。</p><p><br /></p><ul><li><a href=\"https://github.com/chokcoco/CSS-Inspiration\" target=\"_blank\">CSS-Inspiration</a></li></ul><p><br /></p><p>国服第一切图仔 <a href=\"https://github.com/chokcoco\" target=\"_blank\">chokcoco</a> 整理的各种 CSS 技巧，帮助学习 CSS 和寻找灵感，以分类的形式，展示不同 CSS 属性或者不同的课题使用 CSS 来解决的各种方法。</p><p><br /></p><ul><li><a href=\"https://github.com/nukeop/nuclear\" target=\"_blank\">nuclear</a></li></ul><p><br /></p><p>一款高颜值的流媒体资源音乐🎵播放器，支持网络上所有免费的流媒体资源。</p><p><br /></p><ul><li><a href=\"https://github.com/auchenberg/vscode-browser-preview\" target=\"_blank\">vscode-browser-preview</a></li></ul><p><br /></p><p>一款“带给我惊喜”的 vscode 插件，提供给给编辑器实时预览页面的能力，可以将 vscode 打造成更强大的集成开发环境 (IDE) 了。</p><p><br /></p><p><img alt=\"\" src=\"https://cdn.nlark.com/yuque/0/2019/gif/103147/1548992552938-9984fbf1-2e70-4da4-aee2-12b1a68d05d7.gif#align=left&amp;display=inline&amp;height=452&amp;linkTarget=_blank&amp;name=1548992494875-b282cb53-c06d-40f1-ae4c-d142837e5377.gif&amp;originHeight=858&amp;originWidth=1416&amp;size=2200095&amp;width=746#align=left&amp;display=inline&amp;height=452&amp;linkTarget=_blank&amp;originHeight=858&amp;originWidth=1416&amp;width=746\" style=\"max-width: 600px; width: 746px;\" /></p><p><br /></p><h3 id=\"236b7ba5\">精品学习</h3><p><br /></p><h4 id=\"712f2305\">TypScript 学习指导</h4><p><br /></p><p>TypeScript 最近可谓如火如荼，它是 JavaScript 的超集，其最大的特点就是支持了类型系统。其火爆的中最核心的推动力无非是前端工程规模的增长，覆盖端 (服务端 node / deno、移动端等)的扩展，学习和使用 TypeScript 能够让我们更轻松地应付一些复杂的开发场景。</p><p><br /></p><ul><li>理解类型系统，推荐初级读物 <a href=\"https://www.cs.uaf.edu/users/chappell/public_html/class/2018_spr/cs331/docs/types_primer.html\" target=\"_blank\">《A primer of type system》</a></li></ul><ul><li>入门 TypeScript 语言，参阅官网文档<a href=\"http://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html\" target=\"_blank\">英文原版</a> /<a href=\"https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html\" target=\"_blank\"> 中文译版</a></li></ul><ul><li>实践参考项目 (starter)</li></ul><ul data-lake-indent=\"1\"><li><a href=\"https://github.com/Microsoft/TypeScript-Node-Starter\" target=\"_blank\">TypeScript-Node-Starter</a></li></ul><ul data-lake-indent=\"1\"><li><a href=\"https://github.com/Microsoft/TypeScript-React-Starter\" target=\"_blank\">TypeScript-React-Starter</a></li></ul><ul data-lake-indent=\"1\"><li><a href=\"https://github.com/Microsoft/TypeScript-Vue-Starter\" target=\"_blank\">TypeScript-Vue-Starter</a></li></ul><ul data-lake-indent=\"1\"><li>大家猜猜为啥没有列出 <a href=\"https://angular.io/\" target=\"_blank\">Angular</a> ???</li></ul><p><br /></p><h4 id=\"d29a1623\">「墨者修齐」数据可视化<a href=\"https://www.yuque.com/mo-college/weekly\" target=\"_blank\">周刊</a></h4><p><br /></p><p>精选文章推荐，可视化入门与进阶权威网站、论文、工具介绍，工程与设计实践分享，2019 年起每周一更新。</p><p><br /></p><h4 id=\"423a0558\">Development 技术播客<a href=\"https://github.com/rShetty/awesome-podcasts#web-development\" target=\"_blank\">列表</a></h4><p><br /></p><p>涵盖了开发相关的方方面面，包括编程语言、AI、Devops、Web 开发等丰富的课程体系。</p><p><br /></p><h4 id=\"Flutter-learning\">Flutter-learning</h4><p><br /></p><p><a href=\"https://github.com/AweiLoveAndroid/Flutter-learning\" target=\"_blank\">Flutter-learning</a> 整理了 Flutter 相关学习资料，包括 Flutter安装和配置，Flutter开发遇到的难题，Flutter示例代码和模板，Flutter项目实战，Dart语言学习示例代码。</p><p><br /></p><h3 id=\"c11c7bd5\">工具推荐</h3><p><br /></p><ul><li><a href=\"https://projects.lukehaas.me/runjs/\" target=\"_blank\">RunJS</a></li></ul><p><br /></p><p>一款可以随手验证你的想法的桌面应用程序，输入 JS 代码片段既可预览执行结果，支持最新的 ES 特性。(PS: 也可以用来当做代码片段备忘录)</p><p><br /></p><ul><li><a href=\"https://www.image-map.net/\" target=\"_blank\">image-map</a></li></ul><p><br /></p><p>在线生成 image maps 的可视化工具，如果你想要绘制简单的局部可交互地图、编写邮件时希望添加链接到图片指定区块上，不妨通过 image maps 这项古老悠久的技术来实现，image-map 是一款在线进行可视化编辑，生成对应的 map / area 代码的工具。</p><p><br /></p><ul><li><a href=\"https://github.com/mjmlio/mjml\" target=\"_blank\">mjml</a></li></ul><p><br /></p><p>mjml 是一种用于创建响应式的邮件的标记语言，通过编写语义化的标签，会自动帮助你转换成标准的 html 的代码，并且使用了 table 进行布局，非常适合编写富文本邮件。如果有这方面的需求，不妨进一步试试桌面版的 <a href=\"http://mjmlio.github.io/mjml-app/\" target=\"_blank\">mjml-app</a> 吧。</p><p><br /></p><ul><li><a href=\"https://github.com/Eugeny/terminus\" target=\"_blank\">terminus</a></li></ul><p><br /></p><p>支持 windows，linux，macos 三端的命令行工具，集成的SSH客户端和连接管理器，可定制化程度非常高。</p><p><br /></p><h3 id=\"0d98c747\">其他</h3><p><br /></p><p>最近在 Reddit 看到的前端 vs 后端的一些<a href=\"https://github.com/txd-team/monthly/issues/24\" target=\"_blank\">对比图</a>，“很是真实”，献上给大家。</p><p><br /></p><p>各位客官猪年大吉呀🌺🌺🌺，祝福新一年里猪事顺利！！！ 另外 2020 年毕业的同学别忘了准备阿里巴巴春季实习生招聘哈，需要内推的同学也可以提前发送附件简历到我的邮箱。</p><p><br /></p><h3 id=\"2e307a62\">附录</h3><p><br /></p><ul><li><a href=\"https://github.com/shengxinjing/programmer-job-blacklist\" target=\"_blank\">《</a><a href=\"https://github.com/shengxinjing/programmer-job-blacklist\" target=\"_blank\">程序员找工作黑名单</a><a href=\"https://github.com/shengxinjing/programmer-job-blacklist\" target=\"_blank\">》</a></li></ul>",
     "public": 1,
     "status": 1,
     "likes_count": 0,
     "comments_count": 0,
-    "content_updated_at": "2019-02-03T02:29:15.000Z",
+    "content_updated_at": "2019-02-03T06:08:56.000Z",
     "deleted_at": null,
     "created_at": "2019-02-03T02:22:57.000Z",
-    "updated_at": "2019-02-03T05:33:55.000Z",
-    "published_at": "2019-02-03T05:33:55.000Z",
+    "updated_at": "2019-02-03T06:09:15.000Z",
+    "published_at": "2019-02-03T06:09:15.000Z",
     "first_published_at": "2019-02-03T02:24:55.000Z",
-    "word_count": 1723,
+    "word_count": 1758,
     "cover": "",
-    "description": "前端小报 - 201901 月刊订阅 / 投稿：https://github.com/txd-team/monthly本期小编：x-cold (尹挚)新闻快报重磅消息：Github 宣布私有仓库免费，同期还上线了星标话题 (topics) 的功能2019 年伊始，GitHub 正式宣布开放无限...",
+    "description": "重磅消息：GITHUB 宣布私有仓库免费；Jest / Yarn 等大型前端项目纷纷准备迁移到 TypeScript；ES2019 即将到来，你准备好了吗？订阅 / 投稿：https://github.com/txd-team/monthly本期小编：x-cold (尹挚)新闻快报重磅消息：G...",
     "custom_description": "订阅 / 投稿：https://github.com/txd-team/monthly 本期小编：x-cold (尹挚) 新闻快报重磅消息：Github 宣布私有仓库免费，同期还上线了星标话题 (topics) 的功能2019 年伊始，GitHub 正式宣布开放无限制创建私有存储库，并开始提供...",
     "_serializer": "v2.doc_detail"
   },
   {
     "id": 1226365,
     "slug": "sk0x5q",
-    "title": "201812",
+    "title": "前端小报 - 201812 月刊",
     "book_id": 214361,
     "book": {
       "id": 214361,
@@ -96,8 +96,8 @@
       "items_count": 5,
       "likes_count": 0,
       "watches_count": 1,
-      "content_updated_at": "2019-02-03T02:31:48.157Z",
-      "updated_at": "2019-02-03T02:35:24.000Z",
+      "content_updated_at": "2019-02-03T06:09:56.597Z",
+      "updated_at": "2019-02-03T06:09:56.000Z",
       "created_at": "2019-02-03T02:07:23.000Z",
       "namespace": "txd-team/fe-report",
       "user": {
@@ -115,7 +115,7 @@
         "followers_count": 0,
         "following_count": 0,
         "created_at": "2019-02-03T02:06:25.000Z",
-        "updated_at": "2019-02-03T02:35:25.000Z",
+        "updated_at": "2019-02-03T05:48:42.000Z",
         "_serializer": "v2.user"
       },
       "_serializer": "v2.book"
@@ -150,8 +150,8 @@
     "content_updated_at": "2019-02-03T02:28:49.000Z",
     "deleted_at": null,
     "created_at": "2019-02-03T02:22:50.000Z",
-    "updated_at": "2019-02-03T02:35:25.000Z",
-    "published_at": "2019-02-03T02:28:49.000Z",
+    "updated_at": "2019-02-03T06:09:29.000Z",
+    "published_at": "2019-02-03T06:09:29.000Z",
     "first_published_at": "2019-02-03T02:25:04.000Z",
     "word_count": 1940,
     "cover": "",
@@ -162,7 +162,7 @@
   {
     "id": 1226363,
     "slug": "waaozv",
-    "title": "201810-11",
+    "title": "前端小报 - 201810-11 月刊",
     "book_id": 214361,
     "book": {
       "id": 214361,
@@ -176,8 +176,8 @@
       "items_count": 5,
       "likes_count": 0,
       "watches_count": 1,
-      "content_updated_at": "2019-02-03T02:31:48.157Z",
-      "updated_at": "2019-02-03T02:35:24.000Z",
+      "content_updated_at": "2019-02-03T06:09:56.597Z",
+      "updated_at": "2019-02-03T06:09:56.000Z",
       "created_at": "2019-02-03T02:07:23.000Z",
       "namespace": "txd-team/fe-report",
       "user": {
@@ -195,7 +195,7 @@
         "followers_count": 0,
         "following_count": 0,
         "created_at": "2019-02-03T02:06:25.000Z",
-        "updated_at": "2019-02-03T02:35:25.000Z",
+        "updated_at": "2019-02-03T05:48:42.000Z",
         "_serializer": "v2.user"
       },
       "_serializer": "v2.book"
@@ -230,8 +230,8 @@
     "content_updated_at": "2019-02-03T02:28:35.000Z",
     "deleted_at": null,
     "created_at": "2019-02-03T02:22:44.000Z",
-    "updated_at": "2019-02-03T02:35:25.000Z",
-    "published_at": "2019-02-03T02:28:35.000Z",
+    "updated_at": "2019-02-03T06:09:40.000Z",
+    "published_at": "2019-02-03T06:09:40.000Z",
     "first_published_at": "2019-02-03T02:25:10.000Z",
     "word_count": 1023,
     "cover": "",
@@ -242,7 +242,7 @@
   {
     "id": 1226362,
     "slug": "wig8za",
-    "title": "201809",
+    "title": "前端小报 - 201809 月刊",
     "book_id": 214361,
     "book": {
       "id": 214361,
@@ -256,8 +256,8 @@
       "items_count": 5,
       "likes_count": 0,
       "watches_count": 1,
-      "content_updated_at": "2019-02-03T02:31:48.157Z",
-      "updated_at": "2019-02-03T02:35:24.000Z",
+      "content_updated_at": "2019-02-03T06:09:56.597Z",
+      "updated_at": "2019-02-03T06:09:56.000Z",
       "created_at": "2019-02-03T02:07:23.000Z",
       "namespace": "txd-team/fe-report",
       "user": {
@@ -275,7 +275,7 @@
         "followers_count": 0,
         "following_count": 0,
         "created_at": "2019-02-03T02:06:25.000Z",
-        "updated_at": "2019-02-03T02:35:25.000Z",
+        "updated_at": "2019-02-03T05:48:42.000Z",
         "_serializer": "v2.user"
       },
       "_serializer": "v2.book"
@@ -310,8 +310,8 @@
     "content_updated_at": "2019-02-03T02:28:16.000Z",
     "deleted_at": null,
     "created_at": "2019-02-03T02:22:36.000Z",
-    "updated_at": "2019-02-03T02:35:25.000Z",
-    "published_at": "2019-02-03T02:28:16.000Z",
+    "updated_at": "2019-02-03T06:09:48.000Z",
+    "published_at": "2019-02-03T06:09:48.000Z",
     "first_published_at": "2019-02-03T02:25:17.000Z",
     "word_count": 1109,
     "cover": "",
@@ -322,7 +322,7 @@
   {
     "id": 1226357,
     "slug": "gefkho",
-    "title": "201808",
+    "title": "前端小报 - 201808 月刊",
     "book_id": 214361,
     "book": {
       "id": 214361,
@@ -336,8 +336,8 @@
       "items_count": 5,
       "likes_count": 0,
       "watches_count": 1,
-      "content_updated_at": "2019-02-03T02:31:48.157Z",
-      "updated_at": "2019-02-03T02:35:24.000Z",
+      "content_updated_at": "2019-02-03T06:09:56.597Z",
+      "updated_at": "2019-02-03T06:09:56.000Z",
       "created_at": "2019-02-03T02:07:23.000Z",
       "namespace": "txd-team/fe-report",
       "user": {
@@ -355,7 +355,7 @@
         "followers_count": 0,
         "following_count": 0,
         "created_at": "2019-02-03T02:06:25.000Z",
-        "updated_at": "2019-02-03T02:35:25.000Z",
+        "updated_at": "2019-02-03T05:48:42.000Z",
         "_serializer": "v2.user"
       },
       "_serializer": "v2.book"
@@ -390,7 +390,7 @@
     "content_updated_at": "2019-02-03T02:27:57.000Z",
     "deleted_at": null,
     "created_at": "2019-02-03T02:22:02.000Z",
-    "updated_at": "2019-02-03T02:35:25.000Z",
+    "updated_at": "2019-02-03T06:09:56.000Z",
     "published_at": "2019-02-03T02:27:57.000Z",
     "first_published_at": "2019-02-03T02:24:11.000Z",
     "word_count": 381,

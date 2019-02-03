@@ -1,0 +1,16 @@
+{
+  "name": "fe-report",
+  "yuqueConfig": {
+    "login": "txd-team",
+    "repo": "fe-report",
+    "adapter": "markdown",
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "postPath": "report",
+    "mdNameFormat": "title"
+  },
+  "scripts": {
+    "sync": "yuque-hexo sync",
+    "clean": "yuque-hexo clean",
+    "deploy": "npm run sync && node deploy.js"
+  }
+}

@@ -21,7 +21,7 @@ function push(branch) {
     execSync(`git pull origin ${branch}`, execOptions);
     execSync('git add .', execOptions);
     execSync(`git commit -m "yuque auto update"`, execOptions);
-    execSync(`git push -u git://github.com/x-cold/yuque-hexo.git HEAD:${branch}`, execOptions);
+    execSync(`git push -u git://github.com/txd-team/monthly.git HEAD:${branch}`, execOptions);
   } catch(error) {
     console.log(chalk.yellow(error.message));
     console.log(chalk.yellow('There are some exceptions during push code to github, please manually check it.'));

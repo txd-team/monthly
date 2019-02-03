@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/x-cold/yuque-hexo.git"
+    "url": "git+https://github.com/txd-team/monthly.git"
   },
   "scripts": {
     "sync": "yuque-hexo sync",

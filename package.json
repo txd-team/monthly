@@ -8,6 +8,10 @@
     "postPath": "report",
     "mdNameFormat": "title"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-cold/yuque-hexo.git"
+  },
   "scripts": {
     "sync": "yuque-hexo sync",
     "clean": "yuque-hexo clean",

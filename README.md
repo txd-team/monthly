@@ -3,8 +3,8 @@
 
 [![build status][travis-image]][travis-url]
 
-[travis-image]: https://img.shields.io/travis/x-cold/blog.svg?style=flat-square
-[travis-url]: https://travis-ci.org/x-cold/blog
+[travis-image]: https://img.shields.io/travis/txd-team/monthly.svg?style=flat-square
+[travis-url]: https://travis-ci.org/txd-team/monthly
 
 ## 概要
 

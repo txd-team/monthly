@@ -12,5 +12,8 @@
     "sync": "yuque-hexo sync",
     "clean": "yuque-hexo clean",
     "deploy": "npm run sync && node deploy.js"
+  },
+  "devDependencies": {
+    "yuque-hexo": "^1.4.2"
   }
 }

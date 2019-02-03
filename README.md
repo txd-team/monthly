@@ -1,3 +1,11 @@
+前端小报
+---
+
+[![build status][travis-image]][travis-url]
+
+[travis-image]: https://img.shields.io/travis/x-cold/blog.svg?style=flat-square
+[travis-url]: https://travis-ci.org/x-cold/blog
+
 ## 概要
 
 TXD 前端小报，是阿里巴巴「研发效能事业部-技术体验团队 TXD」发起的趣闻点评小项目，汇聚行业最新新闻与动态，聚焦前端及周边领域，<del>每月</del> (逢大事情) 一更；

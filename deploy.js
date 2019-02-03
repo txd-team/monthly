@@ -16,7 +16,7 @@ function push(branch) {
   const execOptions = {
     cwd: rootDir,
   };
-  console.log('Start to push code to gitlab.');
+  console.log('Start to push code to github.');
   try {
     execSync(`git pull origin ${branch}`, execOptions);
     execSync('git add .', execOptions);
@@ -24,14 +24,14 @@ function push(branch) {
     execSync(`git push origin ${branch}`, execOptions);
   } catch(error) {
     console.log(chalk.yellow(error.message));
-    console.log(chalk.yellow('There are some exceptions during push code to gitlab, please manually check it.'));
+    console.log(chalk.yellow('There are some exceptions during push code to github, please manually check it.'));
     if (error.message.startsWith('Command failed: git commit -m')) {
       console.log(chalk.yellow('Almost it is caused by that there isn\'t any changes of repository'));
       return process.exit(0);
     }
     process.exit(ERROR_CODE);
   }
-  console.log('Push code to gitlab done!');
+  console.log('Push code to github done!');
 }
 
 push('master');

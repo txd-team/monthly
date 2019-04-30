@@ -6,7 +6,8 @@
     "adapter": "markdown",
     "baseUrl": "https://www.yuque.com/api/v2",
     "postPath": "report",
-    "mdNameFormat": "title"
+    "mdNameFormat": "slug",
+    "onlyPublished": true
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,6 @@
     "deploy": "npm run sync && node deploy.js"
   },
   "devDependencies": {
-    "yuque-hexo": "^1.4.2"
+    "yuque-hexo": "^1.5.0"
   }
 }

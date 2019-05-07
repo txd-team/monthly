@@ -19,6 +19,6 @@
     "deploy": "npm run sync && node deploy.js"
   },
   "devDependencies": {
-    "yuque-hexo": "^1.5.0"
+    "yuque-hexo": "^1.6.0"
   }
 }

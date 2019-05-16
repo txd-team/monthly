@@ -1,4 +1,4 @@
-前端小报
+阿里云 TXD 前端月刊
 ---
 
 [![build status][travis-image]][travis-url]

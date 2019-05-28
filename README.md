@@ -38,8 +38,8 @@ TXD 前端小报，是阿里巴巴「研发效能事业部-技术体验团队 TX
 - [damujiangr (墨止)](https://github.com/damujiangr)
 - [Hkmu (扶容)](https://github.com/Hkmu)
 - [x-cold (尹挚)](https://github.com/x-cold)
+- [happyliuliu (玙璠)](https://github.com/happyliuliu)
 - [Mavericker (佐七)](https://github.com/Mavericker-1996)
-
 
 ## 关于我们
 

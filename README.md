@@ -53,3 +53,7 @@ TXD 前端小报，是阿里巴巴「研发效能事业部-技术体验团队 TX
 - 人人都是产品经理：[http://www.woshipm.com/u/698224](http://www.woshipm.com/u/698224)
 - Github：[https://github.com/txd-team](https://github.com/txd-team)
 - 团队博客：[http://txd.alibaba-inc.com](http://txd.alibaba-inc.com)
+
+## 友情链接
+
+- [阿里云前端技术周刊](https://github.com/aliyunfe/weekly)
